@@ -29,19 +29,57 @@ public class Vertex {
 		return new Vertex(x + v2.x, y + v2.y);
 	}
 
-	public void addMod(Vertex hund) {
-		x = x + hund.x;
-		y = y + hund.y;
+	public Vertex sub(Vertex v2) {
+		return new Vertex(x - v2.x, y - v2.y);
 	}
+
+	public void addMod(Vertex v2) {
+		x = x + v2.x;
+		y = y + v2.y;
+	}
+
 	public void setzeX(double xx) {
-		x=xx;
+		x = xx;
 	}
+
 	public void setX(double x) {
 		this.x = x;
 	}
+
 	public void setY(double y) {
 		this.y = y;
 	}
-	public double getX() {return x;}
-	public double getY() {return y;}
+
+	public double getX() {
+		return x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public boolean equals(Object thatObject) {
+		if (thatObject instanceof Vertex) {
+			Vertex that = (Vertex) thatObject;
+			return this.x == that.x && this.y == that.y;
+
+		}
+		return false;
+
+	}
+
+	public double distance(Vertex v2) {
+		double xx = v2.x - this.x;
+		double yy = v2.y - this.y;
+
+		return Math.sqrt(xx * xx + yy * yy);
+	}
+
+	public void normalize() {
+		double factor = this.length();
+		x = x / factor;
+		y = y / factor;
+
+	}
+
 }
