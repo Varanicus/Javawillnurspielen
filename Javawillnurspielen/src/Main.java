@@ -6,6 +6,8 @@ public class Main {
 
 		JFrame f = new JFrame("Vertex-Game");
 		f.setVisible(true);
+		f.pack();
+		f.add(new FirstPanel());
 
 	}
 
