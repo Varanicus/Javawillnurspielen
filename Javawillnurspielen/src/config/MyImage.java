@@ -1,3 +1,4 @@
+package config;
 import java.awt.Image;
 import java.awt.Toolkit;
 
@@ -10,8 +11,7 @@ public class MyImage {
 	}
 	public Image get() {
 		if(img==null) {
-			img=Toolkit.getDefaultToolkit().createImage
-					(getClass().getClassLoader().getResource(name));
+			img=Toolkit.getDefaultToolkit().createImage(getClass().getClassLoader().getResource(name));
 		}
 		return img;	
 	}

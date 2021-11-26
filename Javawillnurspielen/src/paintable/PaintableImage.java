@@ -1,9 +1,14 @@
+package paintable;
 import javax.swing.JPanel;
+import config.MyImage;
 import util.ShowInFrame;
 
 
+
 public class PaintableImage extends JPanel implements Paintable{
+	
 	MyImage mi;
+	
 	public PaintableImage(MyImage mi) {
 		this.mi=mi;
 	}
@@ -13,8 +18,8 @@ public class PaintableImage extends JPanel implements Paintable{
 	public void paintTo(java.awt.Graphics g) {
 		g.drawImage(mi.get(),0,0,this);
 	}
-	public static void main(Main [] args) {
-		PaintableImage pi = new PaintableImage("biene.png");
+	public static void main(String [] args) {
+		PaintableImage pi = new PaintableImage("images/biene.png");
 		System.out.println(pi.mi.get().getHeight(pi));
 		ShowInFrame.show(new PaintablePanel(pi));
 	}

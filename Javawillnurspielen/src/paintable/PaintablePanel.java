@@ -1,6 +1,11 @@
+package paintable;
+import config.SizedPanel;
 import util.ShowInFrame;
+
 public class PaintablePanel extends SizedPanel {
+	
 	Paintable pa;
+	
 	public PaintablePanel (Paintable pa) {
 		this.pa = pa;
 	}
@@ -11,6 +16,7 @@ public class PaintablePanel extends SizedPanel {
 	public static void main(String [] args) {
 		ShowInFrame.show(new PaintablePanel(new PaintableOval(100,50,30,50)));
 		ShowInFrame.show(new PaintablePanel(new PaintableOval(10,10,130,40)));
+		ShowInFrame.show(new PaintablePanel(new PaintableRect(20,90,200,80)));
 	}
 
 }

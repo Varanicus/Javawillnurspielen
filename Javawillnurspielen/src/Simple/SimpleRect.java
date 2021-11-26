@@ -1,4 +1,8 @@
+package Simple;
 import java.awt.Color;
+
+import config.Vertex;
+import geometric.GeometricObject;
 
 public class SimpleRect extends GeometricObject{
 
@@ -11,10 +15,10 @@ public class SimpleRect extends GeometricObject{
 	@Override public double area() {
 		return width*height;
 	}
-	public @Override String toString() {
+	@Override public String toString() {
 		return "SimpleRect("+super.toString()+")";
 	}
-	public @Override boolean equals(Object that) {
+	@Override public boolean equals(Object that) {
 		return (that instanceof SimpleRect) && super.equals(that);
 	}
 	

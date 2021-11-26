@@ -1,3 +1,4 @@
+package config;
 
 public class Vertex {
 	public double x;
@@ -38,9 +39,7 @@ public class Vertex {
 		y = y + v2.y;
 	}
 
-	public void setzeX(double xx) {
-		x = xx;
-	}
+	
 
 	public void setX(double x) {
 		this.x = x;

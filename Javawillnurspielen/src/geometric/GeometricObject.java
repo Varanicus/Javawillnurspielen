@@ -1,4 +1,6 @@
+package geometric;
 import java.awt.Color;
+import config.Vertex;
 
 public class GeometricObject {
 	public Vertex pos;
