@@ -4,6 +4,7 @@ import java.awt.Color;
 import config.Vertex;
 import simple.SimpleRect;
 
+//Ein oval was alles kann von SimpleOval und schnittstellen von Paintable
 public class PaintableRect extends SimpleRect implements Paintable{
 	
 		public PaintableRect(double width,double height,double x,double y,Color color) {

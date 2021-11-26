@@ -2,11 +2,10 @@ package util;
 import javax.swing.*;
 
 
-
+//Erstellt das Fenster
 public class ShowInFrame {
 	
-	
- public static void show (String title , JComponent c) {
+	public static void show (String title , JComponent c) {
 	 JFrame f= new JFrame(title);
 	 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	 //f.setResizable(false);

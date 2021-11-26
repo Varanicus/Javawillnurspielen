@@ -1,8 +1,10 @@
 package config;
 import javax.swing.*;
+
 import util.ShowInFrame;
 import java.awt.Dimension;
 
+//Draw mit berechneter größe
 public class SizedPanel extends JPanel{
 	
 	int preferredWidth = 400, preferredHeight=300;
@@ -17,7 +19,7 @@ public class SizedPanel extends JPanel{
 	@Override public Dimension getPreferredSize() {
 		return new Dimension(preferredWidth, preferredHeight);
 	}
-	
+	//Tests
 	public static void main (String[] args) {
 		ShowInFrame.show(new SizedPanel());
 	}

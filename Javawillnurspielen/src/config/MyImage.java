@@ -2,6 +2,7 @@ package config;
 import java.awt.Image;
 import java.awt.Toolkit;
 
+//Laden von Bildern
 public class MyImage {
 	private String name;
 	private Image img=null;
