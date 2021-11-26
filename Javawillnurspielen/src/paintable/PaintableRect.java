@@ -1,8 +1,8 @@
 package paintable;
 import java.awt.Color;
 
-import Simple.SimpleRect;
 import config.Vertex;
+import simple.SimpleRect;
 
 public class PaintableRect extends SimpleRect implements Paintable{
 	

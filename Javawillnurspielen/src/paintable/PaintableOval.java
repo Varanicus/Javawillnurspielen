@@ -1,8 +1,8 @@
 package paintable;
 import java.awt.Color;
 
-import Simple.SimpleOval;
 import config.Vertex;
+import simple.SimpleOval;
 
 public class PaintableOval extends SimpleOval implements Paintable{
 	

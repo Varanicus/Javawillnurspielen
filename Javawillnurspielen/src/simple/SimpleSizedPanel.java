@@ -1,4 +1,4 @@
-package Simple;
+package simple;
 import javax.swing.*;
 
 import config.SizedPanel;

@@ -1,4 +1,4 @@
-package Simple;
+package simple;
 import java.awt.Color;
 
 import config.Vertex;
