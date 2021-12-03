@@ -1,4 +1,4 @@
-package config;
+package image;
 import java.awt.Image;
 import java.awt.Toolkit;
 

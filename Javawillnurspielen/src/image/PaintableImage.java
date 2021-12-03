@@ -1,6 +1,8 @@
-package paintable;
+package image;
 import javax.swing.JPanel;
-import config.MyImage;
+
+import config.Paintable;
+import panel.PaintablePanel;
 import util.ShowInFrame;
 
 

@@ -1,6 +1,6 @@
-package paintable;
+package panel;
 
-import config.SizedPanel;
+import config.Paintable;
 
 public class PaintableArrayPanel extends SizedPanel{
 	

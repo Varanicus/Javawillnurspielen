@@ -1,8 +1,7 @@
-package simple;
+package objects;
 import java.awt.Color;
 
 import config.Vertex;
-import geometric.GeometricObject;
 
 //Unterklasse Dreieck
 public class SimpleTriangle extends GeometricObject{

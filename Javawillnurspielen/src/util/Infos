@@ -1,0 +1,7 @@
+-Geometric und Simple ist für theoretische Grundgerüst
+-Movable ist für die Bewegung von Objekten
+-Paintable ist für das zeichen von Objekten 
+-My Image laden von Bildern
+-GameObject kollision prüfung etc.
+-ShowInFrame erstellt das Fenster
+-SizedPanel + simple erstellt ein Fenster mit fester größe

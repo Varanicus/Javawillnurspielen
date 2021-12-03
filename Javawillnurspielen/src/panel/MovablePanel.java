@@ -1,5 +1,7 @@
-package config;
+package panel;
 import java.util.*;
+
+import config.GameObject;
 
 public class MovablePanel extends SizedPanel{
 List<GameObject> gos = new ArrayList<GameObject>();

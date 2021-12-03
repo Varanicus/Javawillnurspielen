@@ -1,8 +1,9 @@
-package geometric;
+package image;
 import javax.swing.ImageIcon;
 
-import paintable.Paintable;
-import paintable.PaintablePanel;
+import config.Paintable;
+import objects.GeometricObject;
+import panel.PaintablePanel;
 import util.ShowInFrame;
 
 //Unterklasse von Geometric Objects und schnittstelle von Paintable

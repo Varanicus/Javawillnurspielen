@@ -1,4 +1,4 @@
-package config;
+package panel;
 import javax.swing. *;
 import java.awt.Color;
 

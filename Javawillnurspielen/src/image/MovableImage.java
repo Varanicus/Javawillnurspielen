@@ -1,7 +1,8 @@
-package config;
+package image;
 import javax.swing.ImageIcon;
 
-import geometric.GeometricImage;
+import config.GameObject;
+import config.Vertex;
 
 public class MovableImage extends GeometricImage implements GameObject{
 	

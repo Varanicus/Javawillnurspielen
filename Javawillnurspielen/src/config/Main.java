@@ -1,6 +1,8 @@
 package config;
 import javax.swing.JFrame;
 
+import panel.FirstPanel;
+
 public class Main {
 
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package paintable;
+package objects;
 import java.awt.Color;
 
+import config.Paintable;
 import config.Vertex;
-import simple.SimpleRect;
 
 //Ein oval was alles kann von SimpleOval und schnittstellen von Paintable
 public class PaintableRect extends SimpleRect implements Paintable{

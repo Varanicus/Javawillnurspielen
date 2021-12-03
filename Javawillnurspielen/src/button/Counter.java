@@ -1,4 +1,4 @@
-package config;
+package button;
 import java.awt.event.*;
 import javax.swing.*;
 

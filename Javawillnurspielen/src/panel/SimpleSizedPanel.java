@@ -1,7 +1,6 @@
-package simple;
+package panel;
 import javax.swing.*;
 
-import config.SizedPanel;
 import util.ShowInFrame;
 
 //Graphische Komponente zu SizedPanel erstellt fenster mit difinierter größe

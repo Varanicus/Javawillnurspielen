@@ -1,4 +1,4 @@
-package geometric;
+package objects;
 import java.awt.Color;
 
 import config.Vertex;

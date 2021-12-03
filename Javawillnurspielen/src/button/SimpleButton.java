@@ -1,4 +1,4 @@
-package config;
+package button;
 import javax.swing.*;
 import util.ShowInFrame;
 
@@ -7,7 +7,7 @@ public class SimpleButton extends JPanel{
 	JButton c = new JButton("push this button -");
 	JButton d = new JButton("push this button 0");
 	JLabel l = new JLabel("000");
-	SimpleButton(){
+	 SimpleButton(){
 		add(b);
 		add(c);
 		add(d);

@@ -1,7 +1,6 @@
 package config;
-import paintable.Paintable;
 
-interface GameObject extends Movable, Paintable{
+public interface GameObject extends Movable, Paintable{
 	double getWidth();
 	double getHeight();
 	Vertex getPos();

@@ -1,6 +1,7 @@
-package paintable;
-import config.SizedPanel;
-
+package panel;
+import config.Paintable;
+import objects.PaintableOval;
+import objects.PaintableRect;
 import util.ShowInFrame;
 
 //Team2 Der Schnittstelle wissen das es irgendwo klassen mit Methoden gibt und erstellen dazu klassen mit objekten

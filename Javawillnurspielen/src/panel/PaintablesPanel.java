@@ -1,7 +1,8 @@
-package paintable;
+package panel;
 import java.util.*;
 
-import config.SizedPanel;
+import config.Paintable;
+import objects.PaintableOval;
 import util.ShowInFrame;
 
 public class PaintablesPanel extends SizedPanel{
