@@ -2,6 +2,7 @@ package image;
 import javax.swing.ImageIcon;
 
 import config.Paintable;
+import config.Vertex;
 import objects.GeometricObject;
 import panel.PaintablePanel;
 import util.ShowInFrame;
@@ -11,7 +12,7 @@ public class GeometricImage extends GeometricObject implements Paintable{
 	ImageIcon icon;
 	
 	public GeometricImage(String fileName,double x,double y) {
-		super(x,y);
+		super(new Vertex(x,y));
 	icon=new ImageIcon(getClass().getClassLoader().getResource(fileName));
 	init();
 	}

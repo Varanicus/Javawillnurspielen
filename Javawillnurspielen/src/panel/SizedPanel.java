@@ -7,7 +7,7 @@ import java.awt.Dimension;
 //Draw mit berechneter größe
 public class SizedPanel extends JPanel{
 	
-	int preferredWidth = 400, preferredHeight=300;
+	int preferredWidth = 1024, preferredHeight=1024;
 	
 	public SizedPanel(int w, int h) {
 		preferredWidth=w;

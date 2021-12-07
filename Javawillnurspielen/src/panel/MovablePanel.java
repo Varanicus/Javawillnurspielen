@@ -4,7 +4,7 @@ import java.util.*;
 import config.GameObject;
 
 public class MovablePanel extends SizedPanel{
-List<GameObject> gos = new ArrayList<GameObject>();
+public List<GameObject> gos = new ArrayList<GameObject>();
 
 public void paintComponent (java.awt.Graphics g) {
 	super.paintComponent(g);

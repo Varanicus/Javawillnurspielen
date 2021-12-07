@@ -9,7 +9,7 @@ public class ShowInFrame {
 	 JFrame f= new JFrame(title);
 	 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	 //f.setResizable(false);
-	 f.setLocationRelativeTo(null);
+	 //f.setLocationRelativeTo(null);
 	 f.add(c);
      f.pack();
      f.setVisible(true);
