@@ -34,10 +34,23 @@ public class MovableImage extends GeometricImage implements GameObject{
 	}
 	
 	public boolean touches(GameObject that) {
-		if (this.isLeftOf(that)) return false;
-		if (that.isLeftOf(this)) return false;
-		if (this.isAbove(that)) return false;
-		if (that.isAbove(this)) return false;
+		
+		if (this.isLeftOf(that)) { 
+			return false;
+			}
+		
+		if (that.isLeftOf(this)) { 
+			return false;
+		}
+		
+		if (this.isAbove(that)) { 
+			return false;
+			}
+		
+		if (that.isAbove(this)) { 
+			return false;
+			}
+		
 		return true;
 	}
 	

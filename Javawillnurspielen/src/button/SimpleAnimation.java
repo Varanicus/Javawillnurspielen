@@ -13,7 +13,7 @@ public class SimpleAnimation extends MovablePanel{
 		public void actionPerformed(ActionEvent e) {
 			doOnTick();}
 		});
-	SimpleAnimation(){
+	public SimpleAnimation(){
 		t.start();
 	}
 	

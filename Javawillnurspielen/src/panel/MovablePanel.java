@@ -12,7 +12,7 @@ public void paintComponent (java.awt.Graphics g) {
 }
 
 public void move() {
-	for (GameObject go:gos) go.move();
+	for (GameObject go:gos) { go.move();}
 }
 
 public void doOnTick() {
