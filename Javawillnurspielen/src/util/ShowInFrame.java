@@ -7,7 +7,7 @@ public class ShowInFrame {
 	
 	public static void show (String title , JComponent c) {
 	 JFrame f= new JFrame(title);
-	 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	 //f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	 //f.setResizable(false);
 	 //f.setLocationRelativeTo(null);
 	 f.add(c);
